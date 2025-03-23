@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/images/bi.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color:plum;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+}
+
+.assignment-section {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(104, 104, 227);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(72, 72, 200);
+}

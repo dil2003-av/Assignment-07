@@ -1,0 +1,87 @@
+body {
+  background-color: #f2e8e8;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 55vh;
+}
+.person {
+  position: absolute;
+  bottom: 30px;
+  gap: 15px;
+  display: flex;
+}
+.letter {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: relative;
+  right: 15px;
+  transition: opacity 0.5s ease-in-out;
+}
+.house {
+  position: absolute;
+  right: 35px;
+  bottom: 50px;
+  width: 250px;
+  height: 150px;
+}
+#horizintal_line {
+  position: absolute;
+  left: 0;
+  width: 75%;
+}
+img{
+  width: 120px;
+  height: 200px;
+}
+#js_que {
+  position: relative;
+  top: 20px;
+  font-size: 50px;
+  color: rgb(232, 135, 151);
+}
+
+button {
+  padding: 13px 40px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s, transform 0.3s, border 0.3s;
+  margin-top: 100px;
+  /* border-radius: 100px; */
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-1 {
+  margin-right: 10px;
+}
+.btn-2 {
+  margin-left: 10px;
+}
+.start-btn {
+  background-color: #4caf50;
+  border-radius: 25px 0px 0px 25px;
+}
+.stop-btn {
+  background-color: #f44336;
+  border-radius: 0px 25px 25px 0px;
+}
+.start-btn:hover {
+  background-color: #117616;
+  transform: scale(1.1);
+  border: 1px solid #00ff0d;
+}
+.stop-btn:hover {
+  background-color: #b71c1c;
+  transform: scale(1.1);
+  border: 1px solid #ff0000;
+}
