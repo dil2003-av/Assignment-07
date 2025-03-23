@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color:plum;
+    background-color:wheat; /* Light background for readability */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
